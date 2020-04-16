@@ -4,13 +4,14 @@
 <suite name="PrestashopAutomation" verbose="1" >
 
 
-    <test name="CheckCurrency">
+
+
+    <test name="SearchCaseTest">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="tests.CheckCurrencyTest"/>
+            <class name="tests.SearchCaseTest"/>
         </classes>
     </test>
-
 
 
 </suite>

@@ -13,7 +13,7 @@ public class TopNavigation {
     @FindBy(css = ".expand-more._gray-darker.hidden-sm-down")
     private WebElement currency;
 
-    @FindBy(xpath = "//*[@class='currency-selector dropdown js-dropdown open']//*[@class='material-icons expand-more']")
+    @FindBy(xpath = "//*[@id='_desktop_currency_selector']//*[@class='material-icons expand-more']")
     private WebElement currencyList;
 
     @FindBy(linkText = "EUR €")
@@ -33,12 +33,36 @@ public class TopNavigation {
 
     public TopNavigation(WebDriver driver) {
         this.driver = driver;
-        AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 10);
+        AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 5);
         PageFactory.initElements(factory, this);
     }
     public String getCurrency() {
         String currentCurrency = currency.getText().split(" ")[1];
         return currentCurrency;
+    }
+    public TopNavigation typeSearchWord(String word) {
+        searchField.sendKeys(word);
+        return new TopNavigation(driver);
+    }
+    public void changeCurrency(String currencyType) {
+        currencyList.click();
+        if (currencyType.toLowerCase().equals("eur")) {
+            eurCurrency.click();
+        }
+        else if (currencyType.toLowerCase().equals("uah")) {
+            uahCurrency.click();
+        }
+        else if (currencyType.toLowerCase().equals("usd")) {
+            usdCurrency.click();
+        } else {
+            System.out.println("There is no such currency");
+        }
+
+    }
+    public SearchPage searchByWord(String word) {
+        this.typeSearchWord(word);
+        searchButton.click();
+        return new SearchPage();
     }
 
 }

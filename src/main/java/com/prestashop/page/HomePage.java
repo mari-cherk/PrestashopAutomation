@@ -14,9 +14,10 @@ public class HomePage extends Page {
     public List<WebElement> productsCurrency;
 
     public HomePage() {
-        AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 10);
+        AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 5);
         PageFactory.initElements(factory, this);
     }
+
 
 
 
