@@ -1,31 +1,32 @@
-16/04/2020 17:19:02 devpinoyLogger Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
-16/04/2020 17:19:04 devpinoyLogger The window is maximized
-16/04/2020 17:19:04 devpinoyLogger ? is get as current currency
-16/04/2020 17:19:04 devpinoyLogger ? is get as current currency
-16/04/2020 17:19:04 devpinoyLogger ? is get as current currency
-16/04/2020 17:19:04 devpinoyLogger ? is get as current currency
-16/04/2020 17:19:04 devpinoyLogger ? is get as current currency
-16/04/2020 17:19:04 devpinoyLogger ? is get as current currency
-16/04/2020 17:19:04 devpinoyLogger ? is get as current currency
-16/04/2020 17:19:04 devpinoyLogger ? is get as current currency
-16/04/2020 17:19:05 devpinoyLogger The browser is left
-16/04/2020 17:19:09 devpinoyLogger Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
-16/04/2020 17:19:12 devpinoyLogger The window is maximized
-16/04/2020 17:19:12 devpinoyLogger The currency dropdown is expanded
-16/04/2020 17:19:15 devpinoyLogger The USD currency is chosen
-16/04/2020 17:19:16 devpinoyLogger dress word is entered to the search field
-16/04/2020 17:19:17 devpinoyLogger 7 search results are found
-16/04/2020 17:19:17 devpinoyLogger [[ChromeDriver: chrome on WINDOWS (6259049efb84a63d0e10f34322e840e6)] -> xpath: //*[@class='col-md-6 hidden-sm-down total-products']//p] search results in the title
-16/04/2020 17:19:17 devpinoyLogger $ is get as current currency
-16/04/2020 17:19:17 devpinoyLogger $ is get as current currency
-16/04/2020 17:19:17 devpinoyLogger $ is get as current currency
-16/04/2020 17:19:17 devpinoyLogger $ is get as current currency
-16/04/2020 17:19:17 devpinoyLogger $ is get as current currency
-16/04/2020 17:19:17 devpinoyLogger $ is get as current currency
-16/04/2020 17:19:17 devpinoyLogger $ is get as current currency
-16/04/2020 17:19:17 devpinoyLogger Dropdown is expanded
-16/04/2020 17:19:17 devpinoyLogger From high to low sort is chosen
-16/04/2020 17:19:22 devpinoyLogger Displayed prices and discounts are compared
-16/04/2020 17:19:22 devpinoyLogger The order of prices is checked
-16/04/2020 17:19:22 devpinoyLogger Discounts are calculated
-16/04/2020 17:19:22 devpinoyLogger The browser is left
+16/04/2020 22:12:44 devpinoyLogger Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
+16/04/2020 22:12:46 devpinoyLogger The window is maximized
+16/04/2020 22:12:46 devpinoyLogger ? is get as current currency
+16/04/2020 22:12:46 devpinoyLogger ? is get as current currency
+16/04/2020 22:12:46 devpinoyLogger ? is get as current currency
+16/04/2020 22:12:46 devpinoyLogger ? is get as current currency
+16/04/2020 22:12:46 devpinoyLogger ? is get as current currency
+16/04/2020 22:12:46 devpinoyLogger ? is get as current currency
+16/04/2020 22:12:46 devpinoyLogger ? is get as current currency
+16/04/2020 22:12:46 devpinoyLogger ? is get as current currency
+16/04/2020 22:12:47 devpinoyLogger The browser is left
+16/04/2020 22:12:52 devpinoyLogger Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
+16/04/2020 22:12:54 devpinoyLogger The window is maximized
+16/04/2020 22:12:54 devpinoyLogger The currency dropdown is expanded
+16/04/2020 22:12:57 devpinoyLogger The USD currency is chosen
+16/04/2020 22:12:58 devpinoyLogger dress word is entered to the search field
+16/04/2020 22:12:58 devpinoyLogger The search by word is executed
+16/04/2020 22:12:58 devpinoyLogger The number of search results is found
+16/04/2020 22:12:58 devpinoyLogger The number of search results in the title is found
+16/04/2020 22:12:58 devpinoyLogger $ is get as current currency
+16/04/2020 22:12:59 devpinoyLogger $ is get as current currency
+16/04/2020 22:12:59 devpinoyLogger $ is get as current currency
+16/04/2020 22:12:59 devpinoyLogger $ is get as current currency
+16/04/2020 22:12:59 devpinoyLogger $ is get as current currency
+16/04/2020 22:12:59 devpinoyLogger $ is get as current currency
+16/04/2020 22:12:59 devpinoyLogger $ is get as current currency
+16/04/2020 22:12:59 devpinoyLogger Dropdown is expanded
+16/04/2020 22:12:59 devpinoyLogger From high to low sort is chosen
+16/04/2020 22:13:03 devpinoyLogger Displayed prices and discounts are compared
+16/04/2020 22:13:03 devpinoyLogger The order of prices is checked
+16/04/2020 22:13:03 devpinoyLogger Discounts are calculated
+16/04/2020 22:13:04 devpinoyLogger The browser is left

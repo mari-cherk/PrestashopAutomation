@@ -5,8 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
+//import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.commons.math3.util.Precision;
+import org.testng.Reporter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,25 +37,29 @@ public class SearchPage extends Page {
         AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 5);
         PageFactory.initElements(factory, this);
     }
-    WebDriverWait wait = new WebDriverWait(driver, 10);
+    //WebDriverWait wait = new WebDriverWait(driver, 10);
 
     public int getNumberSearchResults() {
         int numberResults = Integer.parseInt(numberSearchResults.getText().replaceAll("\\D+", ""));
-        log.debug(numberSearchResults + " search results in the title");
+        log.debug("The number of search results in the title is found");
+        Reporter.log("The number of search results in the title is found");
         return numberResults;
     }
 
     public int getNumberFoundProducts() {
         int numberFoundProducts = foundProducts.size();
-        log.debug(numberFoundProducts + " search results are found");
+        log.debug("The number of search results is found");
+        Reporter.log("The number of search results is found");
         return numberFoundProducts;
     }
 
     public void setIncreaseSort() {
         sortDropdown.click();
         log.debug("Dropdown is expanded");
+        Reporter.log("Dropdown is expanded");
         fromHighToLow.click();
         log.debug("From high to low sort is chosen");
+        Reporter.log("From high to low sort is chosen");
         waitFor(4000);
     }
 
@@ -70,6 +75,7 @@ public class SearchPage extends Page {
             }
         }
         log.debug("Displayed prices and discounts are compared");
+        Reporter.log("Displayed prices and discounts are compared");
         List<Boolean> checkOrder = new ArrayList<>();
         for (int i=1; i < priceOfFoundProducts.size(); i++) {
             if(priceOfFoundProducts.get(i) <= priceOfFoundProducts.get(i-1)) {
@@ -79,6 +85,7 @@ public class SearchPage extends Page {
             }
         }
         log.debug("The order of prices is checked");
+        Reporter.log("The order of prices is checked");
         return checkOrder;
     }
 
@@ -99,6 +106,7 @@ public class SearchPage extends Page {
             }
         }
         log.debug("Discounts are calculated");
+        Reporter.log("Discounts are calculated");
         return checksList;
     }
 

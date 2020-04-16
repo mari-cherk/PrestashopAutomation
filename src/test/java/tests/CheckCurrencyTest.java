@@ -8,8 +8,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import static com.prestashop.page.Page.driver;
 import static com.prestashop.page.Page.topNav;
 
 public class CheckCurrencyTest {
