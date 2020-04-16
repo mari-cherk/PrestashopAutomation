@@ -3,8 +3,17 @@
 
 <suite name="PrestashopAutomation" verbose="1" >
 
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
 
-
+    <test name="CheckCurrencyTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.CheckCurrencyTest"/>
+        </classes>
+    </test>
 
     <test name="SearchCaseTest">
         <parameter name="browser" value="chrome"/>

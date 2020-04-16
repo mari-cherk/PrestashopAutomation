@@ -40,17 +40,21 @@ public class SearchPage extends Page {
 
     public int getNumberSearchResults() {
         int numberResults = Integer.parseInt(numberSearchResults.getText().replaceAll("\\D+", ""));
+        log.debug(numberSearchResults + " search results in the title");
         return numberResults;
     }
 
     public int getNumberFoundProducts() {
         int numberFoundProducts = foundProducts.size();
+        log.debug(numberFoundProducts + " search results are found");
         return numberFoundProducts;
     }
 
     public void setIncreaseSort() {
         sortDropdown.click();
+        log.debug("Dropdown is expanded");
         fromHighToLow.click();
+        log.debug("From high to low sort is chosen");
         waitFor(4000);
     }
 
@@ -65,6 +69,7 @@ public class SearchPage extends Page {
                 priceOfFoundProducts.add(intPrice);
             }
         }
+        log.debug("Displayed prices and discounts are compared");
         List<Boolean> checkOrder = new ArrayList<>();
         for (int i=1; i < priceOfFoundProducts.size(); i++) {
             if(priceOfFoundProducts.get(i) <= priceOfFoundProducts.get(i-1)) {
@@ -73,6 +78,7 @@ public class SearchPage extends Page {
                 checkOrder.add(false);
             }
         }
+        log.debug("The order of prices is checked");
         return checkOrder;
     }
 
@@ -92,6 +98,7 @@ public class SearchPage extends Page {
                 }
             }
         }
+        log.debug("Discounts are calculated");
         return checksList;
     }
 
