@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-//import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.commons.math3.util.Precision;
 import org.testng.Reporter;
 
@@ -37,7 +36,6 @@ public class SearchPage extends Page {
         AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 5);
         PageFactory.initElements(factory, this);
     }
-    //WebDriverWait wait = new WebDriverWait(driver, 10);
 
     public int getNumberSearchResults() {
         int numberResults = Integer.parseInt(numberSearchResults.getText().replaceAll("\\D+", ""));

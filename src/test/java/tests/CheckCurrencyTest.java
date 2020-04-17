@@ -22,7 +22,6 @@ public class CheckCurrencyTest {
     @Test
     public void checkProductCurrency() {
         HomePage home = new HomePage();
-        System.out.println(topNav.getCurrency());
         home.productsCurrency.stream().forEach(x->Assert.assertTrue(x.getText().contains(topNav.getCurrency()),"Wrong currency"));
         System.out.println("Prices correspond to the established currency");
     }
