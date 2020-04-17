@@ -4,6 +4,10 @@ import com.prestashop.page.HomePage;
 import com.prestashop.page.Page;
 import com.prestashop.page.SearchPage;
 import com.prestashop.provider.DriverManager;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -20,9 +24,11 @@ public class SearchCaseTest {
         Page.initConfiguration();
     }
 
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Checking search work on the site")
+    @Story("Test search on the site")
     @Test
     public void SearchCase() {
-        //HomePage home = new HomePage();
         SearchPage search = new SearchPage();
         topNav.changeCurrency("USD");
         topNav.searchByWord("dress");

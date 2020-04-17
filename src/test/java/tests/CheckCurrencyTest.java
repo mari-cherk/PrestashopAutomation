@@ -3,6 +3,10 @@ package tests;
 import com.prestashop.page.HomePage;
 import com.prestashop.page.Page;
 import com.prestashop.provider.DriverManager;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -19,6 +23,9 @@ public class CheckCurrencyTest {
         Page.initConfiguration();
     }
 
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Checking the correct currency after opening the site")
+    @Story("Test currency on the home page after opening site")
     @Test
     public void checkProductCurrency() {
         HomePage home = new HomePage();

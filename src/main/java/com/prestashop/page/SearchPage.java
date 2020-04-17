@@ -1,5 +1,6 @@
 package com.prestashop.page;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -37,6 +38,7 @@ public class SearchPage extends Page {
         PageFactory.initElements(factory, this);
     }
 
+    @Step("Getting the number of search results in the title")
     public int getNumberSearchResults() {
         int numberResults = Integer.parseInt(numberSearchResults.getText().replaceAll("\\D+", ""));
         log.debug("The number of search results in the title is found");
@@ -44,6 +46,7 @@ public class SearchPage extends Page {
         return numberResults;
     }
 
+    @Step("Getting the number of found search results")
     public int getNumberFoundProducts() {
         int numberFoundProducts = foundProducts.size();
         log.debug("The number of search results is found");
@@ -51,6 +54,7 @@ public class SearchPage extends Page {
         return numberFoundProducts;
     }
 
+    @Step("Setting the products' sort from High to low")
     public void setIncreaseSort() {
         sortDropdown.click();
         log.debug("Dropdown is expanded");
@@ -61,6 +65,7 @@ public class SearchPage extends Page {
         waitFor(4000);
     }
 
+    @Step("Comparing prices after setting sort")
     public List checkPrice() {
         List<Float> priceOfFoundProducts = new ArrayList<>();
         for (WebElement productBlock : productBlocks) {
@@ -87,6 +92,7 @@ public class SearchPage extends Page {
         return checkOrder;
     }
 
+    @Step("Determining the correctness of discounts")
     public List checkDiscount() {
         List<Boolean> checksList = new ArrayList<>();
         for (WebElement container: priceContainers) {

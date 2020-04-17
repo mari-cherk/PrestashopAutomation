@@ -1,5 +1,6 @@
 package com.prestashop.page;
 
+import io.qameta.allure.Step;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -40,18 +41,33 @@ public class TopNavigation {
         AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 5);
         PageFactory.initElements(factory, this);
     }
+
+    @Step("Getting the type of currency in the site header")
     public String getCurrency() {
         String currentCurrency = currency.getText().split(" ")[1];
         log.debug(currentCurrency + " is get as current currency");
         Reporter.log(currentCurrency + " is get as current currency");
         return currentCurrency;
     }
+
+    @Step("Typing the search word")
     public TopNavigation typeSearchWord(String word) {
         searchField.sendKeys(word);
         log.debug(word + " word is entered to the search field");
         Reporter.log(word + " word is entered to the search field");
         return new TopNavigation(driver);
     }
+
+    @Step("Executing the search by the word")
+    public SearchPage searchByWord(String word) {
+        this.typeSearchWord(word);
+        searchButton.click();
+        log.debug("The search by word is executed");
+        Reporter.log("The search by word is executed");
+        return new SearchPage();
+    }
+
+    @Step("Changing the currency on the site")
     public void changeCurrency(String currencyType) {
         currencyList.click();
         log.debug("The currency dropdown is expanded");
@@ -75,14 +91,5 @@ public class TopNavigation {
             log.debug("There is no such currency");
             Reporter.log("There is no such currency");
         }
-
     }
-    public SearchPage searchByWord(String word) {
-        this.typeSearchWord(word);
-        searchButton.click();
-        log.debug("The search by word is executed");
-        Reporter.log("The search by word is executed");
-        return new SearchPage();
-    }
-
 }
