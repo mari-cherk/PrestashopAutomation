@@ -1,31 +1,31 @@
-17:10:06,573 DEBUG devpinoyLogger:17 - Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
-17:10:08,714 DEBUG devpinoyLogger:20 - The window is maximized
-17:10:09,114 DEBUG devpinoyLogger:48 - ? is get as current currency
-17:10:09,160 DEBUG devpinoyLogger:48 - ? is get as current currency
-17:10:09,201 DEBUG devpinoyLogger:48 - ? is get as current currency
-17:10:09,237 DEBUG devpinoyLogger:48 - ? is get as current currency
-17:10:09,277 DEBUG devpinoyLogger:48 - ? is get as current currency
-17:10:09,312 DEBUG devpinoyLogger:48 - ? is get as current currency
-17:10:09,353 DEBUG devpinoyLogger:48 - ? is get as current currency
-17:10:10,343 DEBUG devpinoyLogger:35 - The browser is left
-17:10:15,181 DEBUG devpinoyLogger:17 - Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
-17:10:17,306 DEBUG devpinoyLogger:20 - The window is maximized
-17:10:17,379 DEBUG devpinoyLogger:73 - The currency dropdown is expanded
-17:10:19,834 DEBUG devpinoyLogger:87 - The USD currency is chosen
-17:10:19,988 DEBUG devpinoyLogger:56 - dress word is entered to the search field
-17:10:22,230 DEBUG devpinoyLogger:65 - The search by word is executed
-17:10:22,245 DEBUG devpinoyLogger:52 - The number of search results is found
-17:10:22,274 DEBUG devpinoyLogger:44 - The number of search results in the title is found
-17:10:22,327 DEBUG devpinoyLogger:48 - $ is get as current currency
-17:10:22,356 DEBUG devpinoyLogger:48 - $ is get as current currency
-17:10:22,387 DEBUG devpinoyLogger:48 - $ is get as current currency
-17:10:22,417 DEBUG devpinoyLogger:48 - $ is get as current currency
-17:10:22,458 DEBUG devpinoyLogger:48 - $ is get as current currency
-17:10:22,490 DEBUG devpinoyLogger:48 - $ is get as current currency
-17:10:22,521 DEBUG devpinoyLogger:48 - $ is get as current currency
-17:10:22,600 DEBUG devpinoyLogger:60 - Dropdown is expanded
-17:10:22,681 DEBUG devpinoyLogger:63 - From high to low sort is chosen
-17:10:26,999 DEBUG devpinoyLogger:80 - Displayed prices and discounts are compared
-17:10:27,000 DEBUG devpinoyLogger:90 - The order of prices is checked
-17:10:27,216 DEBUG devpinoyLogger:112 - Discounts are calculated
-17:10:27,853 DEBUG devpinoyLogger:35 - The browser is left
+12:17:21,450 DEBUG devpinoyLogger:17 - Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
+12:17:23,604 DEBUG devpinoyLogger:20 - The window is maximized
+12:17:23,975 DEBUG devpinoyLogger:48 - ? is get as current currency
+12:17:24,016 DEBUG devpinoyLogger:48 - ? is get as current currency
+12:17:24,052 DEBUG devpinoyLogger:48 - ? is get as current currency
+12:17:24,084 DEBUG devpinoyLogger:48 - ? is get as current currency
+12:17:24,116 DEBUG devpinoyLogger:48 - ? is get as current currency
+12:17:24,147 DEBUG devpinoyLogger:48 - ? is get as current currency
+12:17:24,178 DEBUG devpinoyLogger:48 - ? is get as current currency
+12:17:25,001 DEBUG devpinoyLogger:35 - The browser is left
+12:17:30,534 DEBUG devpinoyLogger:17 - Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
+12:17:32,675 DEBUG devpinoyLogger:20 - The window is maximized
+12:17:32,768 DEBUG devpinoyLogger:73 - The currency dropdown is expanded
+12:17:36,088 DEBUG devpinoyLogger:87 - The USD currency is chosen
+12:17:36,221 DEBUG devpinoyLogger:56 - dress word is entered to the search field
+12:17:37,147 DEBUG devpinoyLogger:65 - The search by word is executed
+12:17:37,164 DEBUG devpinoyLogger:52 - The number of search results is found
+12:17:37,194 DEBUG devpinoyLogger:44 - The number of search results in the title is found
+12:17:37,256 DEBUG devpinoyLogger:48 - $ is get as current currency
+12:17:37,289 DEBUG devpinoyLogger:48 - $ is get as current currency
+12:17:37,320 DEBUG devpinoyLogger:48 - $ is get as current currency
+12:17:37,351 DEBUG devpinoyLogger:48 - $ is get as current currency
+12:17:37,381 DEBUG devpinoyLogger:48 - $ is get as current currency
+12:17:37,412 DEBUG devpinoyLogger:48 - $ is get as current currency
+12:17:37,443 DEBUG devpinoyLogger:48 - $ is get as current currency
+12:17:37,515 DEBUG devpinoyLogger:60 - Dropdown is expanded
+12:17:37,589 DEBUG devpinoyLogger:63 - From high to low sort is chosen
+12:17:41,971 DEBUG devpinoyLogger:80 - Displayed prices and discounts are compared
+12:17:41,971 DEBUG devpinoyLogger:90 - The order of prices is checked
+12:17:42,198 DEBUG devpinoyLogger:112 - Discounts are calculated
+12:17:42,829 DEBUG devpinoyLogger:35 - The browser is left
