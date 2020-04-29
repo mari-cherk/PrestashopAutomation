@@ -1,24 +1,31 @@
-21/04/2020 14:54:58 devpinoyLogger Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
-21/04/2020 14:55:00 devpinoyLogger The window is maximized
-21/04/2020 14:55:01 devpinoyLogger The browser is left
-21/04/2020 14:55:07 devpinoyLogger Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
-21/04/2020 14:55:10 devpinoyLogger The window is maximized
-21/04/2020 14:55:10 devpinoyLogger The currency dropdown is expanded
-21/04/2020 14:55:11 devpinoyLogger The USD currency is chosen
-21/04/2020 14:55:11 devpinoyLogger dress word is entered to the search field
-21/04/2020 14:55:12 devpinoyLogger The search by word is executed
-21/04/2020 14:55:12 devpinoyLogger The number of search results is found
-21/04/2020 14:55:12 devpinoyLogger The number of search results in the title is found
-21/04/2020 14:55:12 devpinoyLogger $ is get as current currency
-21/04/2020 14:55:12 devpinoyLogger $ is get as current currency
-21/04/2020 14:55:12 devpinoyLogger $ is get as current currency
-21/04/2020 14:55:12 devpinoyLogger $ is get as current currency
-21/04/2020 14:55:12 devpinoyLogger $ is get as current currency
-21/04/2020 14:55:12 devpinoyLogger $ is get as current currency
-21/04/2020 14:55:12 devpinoyLogger $ is get as current currency
-21/04/2020 14:55:12 devpinoyLogger Dropdown is expanded
-21/04/2020 14:55:12 devpinoyLogger From high to low sort is chosen
-21/04/2020 14:55:16 devpinoyLogger Displayed prices and discounts are compared
-21/04/2020 14:55:16 devpinoyLogger The order of prices is checked
-21/04/2020 14:55:17 devpinoyLogger Discounts are calculated
-21/04/2020 14:55:17 devpinoyLogger The browser is left
+24/04/2020 17:30:37 devpinoyLogger Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
+24/04/2020 17:30:39 devpinoyLogger The window is maximized
+24/04/2020 17:30:39 devpinoyLogger ? is get as current currency
+24/04/2020 17:30:39 devpinoyLogger ? is get as current currency
+24/04/2020 17:30:39 devpinoyLogger ? is get as current currency
+24/04/2020 17:30:39 devpinoyLogger ? is get as current currency
+24/04/2020 17:30:40 devpinoyLogger ? is get as current currency
+24/04/2020 17:30:40 devpinoyLogger ? is get as current currency
+24/04/2020 17:30:40 devpinoyLogger ? is get as current currency
+24/04/2020 17:30:41 devpinoyLogger The browser is left
+24/04/2020 17:30:45 devpinoyLogger Navigated to http://prestashop-automation.qatestlab.com.ua/ru/
+24/04/2020 17:30:48 devpinoyLogger The window is maximized
+24/04/2020 17:30:48 devpinoyLogger The currency dropdown is expanded
+24/04/2020 17:30:51 devpinoyLogger The USD currency is chosen
+24/04/2020 17:30:51 devpinoyLogger dress word is entered to the search field
+24/04/2020 17:30:52 devpinoyLogger The search by word is executed
+24/04/2020 17:30:52 devpinoyLogger The number of search results is found
+24/04/2020 17:30:52 devpinoyLogger The number of search results in the title is found
+24/04/2020 17:30:52 devpinoyLogger $ is get as current currency
+24/04/2020 17:30:52 devpinoyLogger $ is get as current currency
+24/04/2020 17:30:52 devpinoyLogger $ is get as current currency
+24/04/2020 17:30:52 devpinoyLogger $ is get as current currency
+24/04/2020 17:30:52 devpinoyLogger $ is get as current currency
+24/04/2020 17:30:52 devpinoyLogger $ is get as current currency
+24/04/2020 17:30:52 devpinoyLogger $ is get as current currency
+24/04/2020 17:30:52 devpinoyLogger Dropdown is expanded
+24/04/2020 17:30:52 devpinoyLogger From high to low sort is chosen
+24/04/2020 17:30:57 devpinoyLogger Displayed prices and discounts are compared
+24/04/2020 17:30:57 devpinoyLogger The order of prices is checked
+24/04/2020 17:30:57 devpinoyLogger Discounts are calculated
+24/04/2020 17:30:58 devpinoyLogger The browser is left

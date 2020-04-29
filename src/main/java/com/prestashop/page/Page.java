@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.apache.log4j.Logger;
 import org.testng.Reporter;
 import java.util.concurrent.TimeUnit;
-
+//creating new branch
 
 public class Page {
     public static Logger log = Logger.getLogger("devpinoyLogger");
